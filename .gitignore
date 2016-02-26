@@ -7,3 +7,9 @@ node_modules
 
 # OS Files
 **/.DS_Store
+
+# Compiled files
+# We're compiling css with sass and html with gulp-file-include
+*.html
+css/*.css
+css/*.css.map
