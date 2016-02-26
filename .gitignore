@@ -1,0 +1,9 @@
+# Vendor (e.g. Composer, Bower)
+vendor/*
+!vendor/.gitkeep
+
+# Node Package Manager
+node_modules
+
+# OS Files
+**/.DS_Store
