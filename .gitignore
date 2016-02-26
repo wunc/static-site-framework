@@ -11,5 +11,6 @@ node_modules
 # Compiled files
 # We're compiling css with sass and html with gulp-file-include
 *.html
+!templates/*.html
 css/*.css
 css/*.css.map
