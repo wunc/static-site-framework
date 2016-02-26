@@ -1,0 +1,25 @@
+{
+  "name": "FAS",
+  "version": "2.0.0",
+  "authors": [
+    "Wun Chiou <wun@utdallas.edu>"
+  ],
+  "description": "Foreign Accent Syndrome",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "www.utdallas.edu/research/fas",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "~3.3.4",
+    "font-awesome": "~4.3.0",
+    "jquery": "~2.1.3"
+  }
+}
