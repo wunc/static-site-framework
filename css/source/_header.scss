@@ -1,0 +1,26 @@
+header {
+	&.header {
+		color: #fff;
+		background-color: $utd-sapling-green;
+		padding: 20px;
+		margin-bottom: 20px;
+
+		h1 {
+			margin-top: 10px;
+			margin-bottom: 10px;
+		}
+	}
+}
+
+nav {
+
+	&.navbar {
+		border: 0;
+		border-radius: 0;
+		margin-bottom: 0;
+	}
+	&.navbar-inverse {
+		border-color: $utd-flame-orange;
+		background-color: $utd-flame-orange;
+	}
+}
