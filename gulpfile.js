@@ -27,7 +27,7 @@ gulp.task('html', function() {
 		.pipe(gulp.dest('./'));
 });
 
-gulp.task('css', function() {
+gulp.task('sass', function() {
 	return sass(paths.sass + '/style.scss', {
 			style: 'compressed',
 			sourcemap: true,
@@ -55,9 +55,9 @@ gulp.task('copy', ['copy_bootstrapjs', 'copy_jquery']);
 
 // Watch
 gulp.task('watch', function() {
-     gulp.watch(paths.sass + '/**/*.scss', ['css']); 
+     gulp.watch(paths.sass + '/**/*.scss', ['sass']); 
 	gulp.watch(paths.templates + '/**/*.html', ['html']); 
 });
 
 // Default
-  gulp.task('default', ['html', 'css']);
+  gulp.task('default', ['html', 'sass']);
